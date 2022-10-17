@@ -66,9 +66,16 @@
 }
 
 @media screen and (max-width:1024px) {
+    #about{
+        height: 100%;
+    }
     .about_container{
         grid-template-columns: 1fr;
         gap: 0;
+    }
+
+    .about_content{
+        margin:0 auto;
     }
 
     .about_me{
@@ -78,6 +85,11 @@
 
     .about_content p{
         margin: 1rem;
+    }
+    
+    .about_content a{
+        display: flex;
+        margin: 0 auto;
     }
 }
 
@@ -91,9 +103,19 @@
         gap: 1rem;
     }
     .about_content{
-        text-align: center;
+        margin: 0 auto;
+        display: block;
     }
     .about_content p{
         margin: 1.5rem 0;
+    }
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+
+    }
+    .about_content a{
+        display: flex;
+        margin: 0 auto;
     }
 }

@@ -36,9 +36,9 @@ const About = () =>{
                         </article>
                     </div>
                     <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea placeat nisi explicabo doloremque, tempore corporis dolores deleniti iusto soluta tempora mollitia maxime. Iste minima voluptate minus nostrum. Minima, asperiores temporibus.
-                        </p>
-                        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea placeat nisi explicabo doloremque, tempore corporis dolores deleniti iusto soluta tempora mollitia maxime. Iste minima voluptate minus nostrum. Minima, asperiores temporibus.
+                    </p>
+                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>
         </section>

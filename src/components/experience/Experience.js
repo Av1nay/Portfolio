@@ -3,6 +3,50 @@ import './experience.css'
 import {AiFillHtml5} from 'react-icons/ai'
 import {SiMysql} from 'react-icons/si'
 
+const frontend = [
+  {
+    skill:'HTML',
+    working_expereince:'Expereinced',
+    icon:<AiFillHtml5/>
+  },
+  {
+    skill:'CSS',
+    working_expereince:'Expereinced',
+    icon:<AiFillHtml5/>
+  },
+  {
+    skill:'JavaScript',
+    working_expereince:'Expereinced',
+    icon:<AiFillHtml5/>
+  },
+  {
+    skill:'React',
+    working_expereince:'Beginner',
+    icon:<AiFillHtml5/>
+  }
+]
+const backend = [
+  {
+    skill:'SQL',
+    working_expereince:'Expereinced',
+    icon:<SiMysql/>
+  },
+  {
+    skill:'SQL',
+    working_expereince:'Expereinced',
+    icon:<SiMysql/>
+  },
+  {
+    skill:'SQL',
+    working_expereince:'Expereinced',
+    icon:<SiMysql/>
+  },
+  {
+    skill:'SQL',
+    working_expereince:'Expereinced',
+    icon:<SiMysql/>
+  }
+]
 const Experience = () => {
   return (
     <section id='experience'>
@@ -12,53 +56,37 @@ const Experience = () => {
         <div className="experince_frontend">
           <h3>Frontend Development</h3>
           <div className="experience_content">
-            <article className='experience_details'>
-            <div>
-                <icons><AiFillHtml5/></icons>
-                <h4>HTML</h4>
-                <small>Experienced</small>  
-              </div>
-            </article>
-            <article className='experience_details'>
-            <div>
-                <icons><AiFillHtml5/></icons>
-                <h4>HTML</h4>
-                <small>Experienced</small>  
-              </div>
-            </article>
-            <article className='experience_details'>
-              <div>
-                <icons><AiFillHtml5/></icons>
-                <h4>HTML</h4>
-                <small>Experienced</small>  
-              </div>
-            </article>
+            {
+              frontend.map(({index, skill, working_expereince, icon}) => {
+                return(
+                  <article className='experience_details'>
+                    <div>
+                      <icons>{icon}</icons>
+                      <h4>{skill}</h4>
+                      <small>{working_expereince}</small>
+                    </div>
+                  </article>
+                )
+              }) 
+            }
           </div>
         </div>
         <div className="experince_Backend">
           <h3>Backendd Development</h3>
           <div className="experience_content">
-            <article className='experience_details'>
-              <div>
-                <icons><SiMysql/></icons>
-                <h4>SQL</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <div>
-              <icons><SiMysql/></icons>
-                <h4>SQL</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className='experience_details'>
-              <div>
-              <icons><SiMysql/></icons>
-                <h4>SQL</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+          {
+              backend.map(({index, skill, working_expereince, icon}) => {
+                return(
+                  <article className='experience_details'>
+                    <div>
+                      <icons>{icon}</icons>
+                      <h4>{skill}</h4>
+                      <small>{working_expereince}</small>
+                    </div>
+                  </article>
+                )
+              }) 
+            }
           </div>
         </div>
       </div>

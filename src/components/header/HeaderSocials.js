@@ -10,5 +10,4 @@ const HeaderSocials = () => {
     </div>
   )
 }
-
 export default HeaderSocials

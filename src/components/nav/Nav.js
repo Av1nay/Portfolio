@@ -4,7 +4,7 @@ import {HiHome} from 'react-icons/hi'
 import {FaRegUser} from 'react-icons/fa'
 import {RiContactsBookUploadFill} from 'react-icons/ri'
 import {RiPassportFill} from 'react-icons/ri'
-import {BiMessageRoundedEdit} from 'react-icons/bi'
+// import {BiMessageRoundedEdit} from 'react-icons/bi'
 
 const navmenu = [
   {

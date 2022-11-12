@@ -19,6 +19,13 @@ h2{
     gap: 1.2rem;
     justify-content: center;
 }
+button{
+    font-size: 1rem;
+    background-color:var(--color-bg-variant);
+}
+button:hover{
+    transition: var(--transition);
+}
 
 .header_socials{
     display: flex;

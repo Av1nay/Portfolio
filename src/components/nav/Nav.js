@@ -27,11 +27,11 @@ const navmenu = [
     title:"#portfolio",
     icon:<RiPassportFill/>
 },
-{
+/* {
     id:5,
     title:"#contact",
     icon:<BiMessageRoundedEdit/>
-}
+} */
 ]
 
 const Nav = () => {

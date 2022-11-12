@@ -56,7 +56,7 @@ h1{
 
 section{
     padding-top: 5rem;
-    height: 100vh;
+    height: 100%;
 }
 
 section > h2, section > h5{
@@ -119,6 +119,7 @@ img{
     section{
         margin-top: 6rem;
     }
+    
 }
 
 @media screen and (max-width:600px){

@@ -22,17 +22,17 @@ const About = () =>{
                         <article className="about_card">
                             <GiAchievement className='icons'/>
                             <h5>Experience</h5>
-                            <small>1+ Years of Working</small>
+                            <small>Numbers of years</small>
                         </article>
                         <article className="about_card">
                             <IoIosPeople className='icons'/>
                             <h5>Clients</h5>
-                            <small>more than 100</small>
+                            <small>Number of clients</small>
                         </article>
                         <article className="about_card">
                             <AiFillProject className='icons'/>
                             <h5>Projects</h5>
-                            <small>More than 200+ Projects</small>
+                            <small>Number of Projects</small>
                         </article>
                     </div>
                     <p>
